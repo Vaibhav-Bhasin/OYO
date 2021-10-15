@@ -38,3 +38,7 @@ def hotel_room_cost(room):
   if room=="Master Suite":
     return 15500
   if room=="Mini-Suite or Junior Suite":
+    return 13500
+  if room=="Connecting Rooms":
+    return 14500
+
