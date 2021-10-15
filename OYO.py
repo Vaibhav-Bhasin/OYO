@@ -1,5 +1,3 @@
-
-
 def car_cost(days):
   if days<3:
     return 5000*days
