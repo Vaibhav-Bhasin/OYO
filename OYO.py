@@ -33,3 +33,8 @@ def hotel_room_cost(room):
     return 10000
   if room=="Double-Double":
     return 10500
+  if room=="Studio":
+    return 12500
+  if room=="Master Suite":
+    return 15500
+  if room=="Mini-Suite or Junior Suite":
