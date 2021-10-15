@@ -25,3 +25,5 @@ def hotel_room_cost(room):
     return 3500
   if room=="Quad":
     return 4500
+  if room=="Queen":
+    return 7500
