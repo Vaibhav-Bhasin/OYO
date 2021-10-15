@@ -19,4 +19,5 @@ print("Your Hotel cost is",hotel_cost(nights))
 def hotel_room_cost(room):
   if room=="Single":
     return 1500
-
+  if room=="Double":
+    return 2500
