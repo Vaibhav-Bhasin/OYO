@@ -41,4 +41,12 @@ def hotel_room_cost(room):
     return 13500
   if room=="Connecting Rooms":
     return 14500
-
+  if room=="Adjoining Rooms":
+    return 12500
+  if room=="Adjacent Rooms":
+    return 16500
+  else:
+    print("Sorry we Dont Have Data For:: \n",room)   
+    return 0
+room= input("Enter room type: ")
+print("Your Room cost is",hotel_room_cost(room))
